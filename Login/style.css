@@ -107,7 +107,6 @@ input{
     .register{
         display: flex;
         flex-direction: column;
-        
     }
     .img-register-background{
         height: 300px;
