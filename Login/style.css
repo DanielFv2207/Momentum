@@ -102,6 +102,18 @@ input{
 .text-line:not(:empty)::after {
     margin-left: 10px;
 }
+button{
+    cursor: pointer;
+}
+/* :hover aumenta tamaño y cambia tono */
+.sign:hover {
+    opacity: 0.9;
+}
+
+/* :active reduce opacidad al hacer clic (efecto de presión) */
+.sign:active {
+    opacity: 0.6;
+}
 
 @media (max-width: 1023px) {
     .register{
