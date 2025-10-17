@@ -18,4 +18,13 @@ form.addEventListener('submit', async (e) => {
 
     const result = await res.json();
     document.getElementById('message').textContent = result.message;
+
+    
+    if (result.success) {
+        //successful login
+        message.style.color = 'green';
+    } else {
+        // login failed
+        message.style.color = 'red';
+    }
 });
